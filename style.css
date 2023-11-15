@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+.chatbot-text-box{
+  margin-top: 10rem;
+}
+
+.chat-bot{
+  background-color: aliceblue;
+  height: 100vh;
+  
+}
+.header{
+  padding: 2rem 3.2rem 0 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-bot{
+  display: block;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  gap: 2.8rem;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+}
+.nav-li-item{
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.nav-btn{
+  color: #6495ed;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid #6495ed;
+  background: none;
+  padding: 0.5rem 0.8rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.chat-bot-heading{
+  color: #0d43a7;
+  font-size: 3.6rem;
+  font-weight: 700;  
+}
+
+.chatbot-img{
+  width: 80%;
+}
+.chatbot-btn{
+  margin-top: 2rem;
+  border: none;
+  background: none;
+  color: #fff;
+  background-color: rgb(21, 211, 148);
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.footer-list{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  /* margin-left: 124px */
+  
+}
+.footer-li-items{
+  text-decoration: none;
+  margin-top: 20rem;
+  
+}
+.footer-li-icon{
+  width: 1.5rem;
+  height: 2rem;
+  filter: brightness(0);
+  opacity: 10%;
+}
